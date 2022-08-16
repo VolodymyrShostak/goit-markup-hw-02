@@ -1,8 +1,8 @@
 :root {
-    --primary-text-color: #2F303A
+    --primary-text-color: #2F303A;
     --title-text-color: #212121;
 
-    --accent-color: #2196F3
+    --accent-color: #2196F3;
 
 }
 body {
@@ -25,14 +25,14 @@ color:#757575 ;
     list-style: none;
 }
 .site-nav .link {
-    color: var(--title-text-color);
+    color:var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--accent-color);
 }
 .hero, .footer {
-    background-color:var(--primary-text-color);
+    background-color:#2F303A;
 }
 .hero-title {
     color: #FFFFFF;
