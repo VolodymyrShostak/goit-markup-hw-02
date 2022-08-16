@@ -1,0 +1,56 @@
+:root {
+    --primary-text-color: #2F303A
+    --title-text-color: #212121;
+
+    --accent-color: #2196F3
+
+}
+body {
+background-color: white;
+color:#757575 ;
+}
+.decoration {
+    text-decoration: none;
+}
+.logo-one {
+    color:var(--accent-color);
+}
+.logo-two {
+    color:#000000;
+}
+.logo-three {
+    color: #FFFFFF;
+}
+.list {
+    list-style: none;
+}
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.hero, .footer {
+    background-color:var(--primary-text-color);
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.button {
+  background-color:var(--accent-color);
+  color: #FFFFFF;
+}
+.section-title {
+    color:var(--title-text-color) ;
+} 
+.title, .name  {
+    color: var(--title-text-color);
+}
+/* footer */
+.post-address {
+    color:#FFFFFF ;
+}
+.mail, .tel {
+    color: #FFFFFF99;
+}
