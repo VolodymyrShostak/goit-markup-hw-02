@@ -31,6 +31,9 @@ color:#757575 ;
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+.site-nav .link.current {
+    color: var(--accent-color);
+}
 .hero, .footer {
     background-color:#2F303A;
 }
