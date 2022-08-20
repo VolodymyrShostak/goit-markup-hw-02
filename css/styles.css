@@ -9,7 +9,7 @@ body {
 font-family: 'Roboto', sans-serif;
 background-color: white;
 color:#757575 ;
-letter-spacing: 3%;
+letter-spacing: 0.03em;
 }
 .decoration {
     text-decoration: none;
@@ -40,9 +40,11 @@ color:var(--title-text-color);
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-line-height: 100%;
-letter-spacing: 2%;
+letter-spacing: 0.02em;
 text-decoration: none;
+}
+.contacts .link {
+    color: #757575 ;
 }
 
 .site-nav .link:hover,
@@ -87,6 +89,10 @@ letter-spacing: 0.02em;
 .button.primary {
  background-color:var(--accent-color);
   color: var(--primaty-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em; 
 }
 
 .button.secondary {
@@ -152,7 +158,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 }
 .address .contact {
-    color: rgba(255, 255, 255, 0.6);;
+    color: rgba(255, 255, 255, 0.6);
 }
 .address .contact:hover,
 .address .contact:focus {
