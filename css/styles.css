@@ -159,6 +159,7 @@ letter-spacing: 0.03em;
 }
 .address .contact {
     color: rgba(255, 255, 255, 0.6);
+    
 }
 .address .contact:hover,
 .address .contact:focus {
